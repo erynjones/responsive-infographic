@@ -24,6 +24,10 @@ body {
   color: #d42380;
 }
 
+p {
+  padding: 1em;
+}
+
 header {
   background-color: #eda3c8;
   position: relative;
@@ -447,14 +451,22 @@ h4 {
 @media only screen and (min-width: 52em) {
 
   h1 {
-    width: 75%;
-    top: 5px;
-    right: 0px;
-    font-size: 2.5em;
+    font-size: 3em;
   }
 
   .cupid {
-    width: 25%;
-    top: 10px;
+    width: 215px;
+  }
+}
+
+@media only screen and (min-width: 69em) {
+
+  h1 {
+    font-size: 3.5em;
+    right: 60px;
+  }
+
+  .cupid {
+    left: 60px;
   }
 }
