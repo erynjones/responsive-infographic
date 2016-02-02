@@ -22,37 +22,107 @@ html {
 
 
 .cupid-fill {
-  fill:#D42380;
+  fill: #d42380;
 }
 
 .uk-0 {
   clip-path:url(#SVGID_2_);
-  fill:#213C75;}
+  fill: #213c75;}
 
 .uk-1 {
   clip-path:url(#SVGID_2_);
-  fill:#FFFFFF;}
+  fill: #fff;}
 
 .uk-2 {
   clip-path:url(#SVGID_2_);
-  fill:#E03A3E;
+  fill: #e03a3e;
 }
 
 .uk-3 {
   clip-path:url(#SVGID_2_);
-  fill:#DD3E44;
+  fill: #dd3e44;
 }
 
 
 .us-0 {
   clip-path:url(#SVGID_2_);
-  fill:#065BA6;
+  fill: #065bA6;
 }
 .us-1 {
-  clip-path:url(#SVGID_2_);
-  fill:#FFFFFF;
+  clip-path: url(#SVGID_2_);
+  fill: #fff;
 }
 .us-2 {
   clip-path:url(#SVGID_2_);
-  fill:#E12529;
+  fill:#e12529;
+}
+
+.couple-0 {
+  fill:#edb283;
+}
+
+.couple-1 {
+  fill: #603913;
+}
+.couple-2 {
+  fill: #fff;
+}
+
+.couple-3 {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1.75;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+
+.friends-0 {
+  fill: #e9579e;
+}
+
+.friends-1 {
+  fill: #edb283;
+}
+
+.friends-2 {
+  fill: #603913;
+}
+
+.friends-3 {
+  fill: #fff;
+}
+
+.friends-4 {
+  fill: #be1e2d;
+}
+
+.friends-5 {
+  fill: #911A1F;
+}
+
+.friends-6 {
+  fill: #262262;
+}
+
+.dog-0 {
+  fill: #452c15;
+}
+
+.dog-1 {
+  fill: #65431a;
+}
+
+.dog-2 {
+  fill: #fff;
+  stroke: #000;
+  stroke-miterlimit: 10;
+}
+
+.dog-3 {
+  stroke: #000;
+  stroke-miterlimit: 10;
+}
+
+.dog-4 {
+  fill: #291111;
 }
