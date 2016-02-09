@@ -93,30 +93,35 @@ h4 {
   margin-right: auto;
   margin-left: auto;
   display: block;
+  width: 50%;
 }
 
 .friends {
   margin-right: auto;
   margin-left: auto;
   display: block;
+  width: 50%;
 }
 
 .dog {
   margin-right: auto;
   margin-left: auto;
   display: block;
+  width: 50%;
 }
 
 .uk {
   margin-right: auto;
   margin-left: auto;
   display: block;
+  width: 30%;
 }
 
 .us {
   margin-right: auto;
   margin-left: auto;
   display: block;
+  width: 30%;
 }
 
 .center {
@@ -131,10 +136,74 @@ h4 {
   color: #e9579e;
   margin: 0;
   padding: 0;
+  width: 50%;
+}
+
+.uk-info {
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+.us-info {
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 }
 
 .beloved {
   background-color: #eda3c8;
+}
+
+
+@media only screen and (min-width: 31em) {
+
+  h1 {
+    width: 75%;
+    top: 5px;
+    right: 0px;
+    font-size: 2.5em;
+  }
+
+  .cupid {
+    width: 25%;
+    top: 10px;
+  }
+}
+
+@media only screen and (min-width: 52em) {
+
+  h1 {
+    font-size: 3em;
+  }
+
+  .cupid {
+    width: 215px;
+  }
+}
+
+@media only screen and (min-width: 69em) {
+
+  h1 {
+    font-size: 3.5em;
+    right: 60px;
+  }
+
+  .cupid {
+    left: 60px;
+  }
+
+  .table {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .us-info {
+    width: 30%;
+    margin-right: 1em;
+  }
 }
 
 .cupid-fill {
@@ -491,55 +560,17 @@ h4 {
 }
 
 .uk-info-0 {
-  fill:#d42380;
+  fill: #d42380;
 }
 
-.uk-info- {
-  fill:#fff;
+.uk-info-1 {
+  fill: #fff;
 }
 
 .us-info-0 {
-  fill:#d42380;
+  fill: #d42380;
 }
 
 .us-info-1 {
-  fill:#fff;
-}
-
-@media only screen and (min-width: 31em) {
-
-  h1 {
-    width: 75%;
-    top: 5px;
-    right: 0px;
-    font-size: 2.5em;
-  }
-
-  .cupid {
-    width: 25%;
-    top: 10px;
-  }
-}
-
-@media only screen and (min-width: 52em) {
-
-  h1 {
-    font-size: 3em;
-  }
-
-  .cupid {
-    width: 215px;
-  }
-}
-
-@media only screen and (min-width: 69em) {
-
-  h1 {
-    font-size: 3.5em;
-    right: 60px;
-  }
-
-  .cupid {
-    left: 60px;
-  }
+  fill: #fff;
 }
