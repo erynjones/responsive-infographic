@@ -148,6 +148,22 @@ h4 {
     font-size: 2.5em;
   }
 
+    h2 {
+      font-size: 2em;
+    }
+
+    h3 {
+      font-size: 1.25em;
+    }
+
+    h4 {
+      font-size: 1em;
+    }
+
+    p {
+      font-size: 0.75em;
+    }
+
   .cupid {
     width: 25%;
     top: 10px;
@@ -203,6 +219,26 @@ h4 {
 
 @media only screen and (min-width: 40em) {
 
+  h1 {
+    font-size: 2.75em;
+  }
+
+  h2 {
+    font-size: 2.25em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  h4 {
+    font-size: 1.25em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
   .beloved {
     bottom: -20px;
     padding-left: 4em;
@@ -233,6 +269,22 @@ h4 {
 
   h1 {
     font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2.5em;
+  }
+
+  h3 {
+    font-size: 1.75em;
+  }
+
+  h4 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 1.25em;
   }
 
   .cupid {
