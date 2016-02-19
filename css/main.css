@@ -160,10 +160,6 @@ h4 {
       font-size: 1em;
     }
 
-    p {
-      font-size: 0.75em;
-    }
-
   .cupid {
     width: 25%;
     top: 10px;
@@ -395,7 +391,7 @@ h4 {
   .thirty {
     position: absolute;
     display: inline-block;
-    left: 400px;
+    left: 360px;
     width: 33%;
   }
 
@@ -407,20 +403,20 @@ h4 {
   }
 
   .uk {
-    left: 155px;
+    left: 185px;
   }
 
   .us {
 
-    right: 155px;
+    right: 185px;
   }
 
   .uk-info {
-    left: 105px;
+    left: 135px;
   }
 
   .us-info {
-    right: 105px;
+    right: 135px;
   }
 
   .all {
@@ -431,6 +427,14 @@ h4 {
 
 .cupid-fill {
   fill: #d42380;
+}
+
+
+@media only screen and (min-width: 74em) {
+
+  .thirty {
+    left: 450px;
+  }
 }
 
 
