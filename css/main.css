@@ -295,6 +295,7 @@ h4 {
 
   .beloved {
     height: 1000px;
+    top: 345px;
   }
 
   .sensitive {
@@ -325,6 +326,32 @@ h4 {
     right: 15px;
     top: 625px;
     width: 50%;
+  }
+
+  .all {
+    position: relative;
+  }
+
+  .fifty {
+    position: absolute;
+    display: inline-block;
+    left: 15px;
+    width: 33%;
+    top: 95px;
+  }
+
+  .thirty {
+    position: absolute;
+    display: inline-block;
+    left: 400px;
+    width: 33%;
+  }
+
+  .five {
+    position: absolute;
+    display: inline-block;
+    right: 15px;
+    width: 33%;
   }
 
   .uk {
