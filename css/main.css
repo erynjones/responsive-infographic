@@ -20,12 +20,12 @@ body {
   background-color: #f2d2e2;
   margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   color: #d42380;
 }
 
 p {
-  padding: 0em 1em 1em 1em;
+  padding: 0 1em 1em 1em;
   text-align: center;
 }
 
@@ -43,7 +43,7 @@ header {
 }
 
 h1 {
-  font-family: 'Allura', cursive;
+  font-family: "Allura", cursive;
   color: white;
   width: 75%;
   position: absolute;
@@ -57,7 +57,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Allura', cursive;
+  font-family: "Allura", cursive;
   text-align: center;
   color: #d42380;
   font-size: 1.75em;
@@ -134,7 +134,6 @@ h4 {
   padding: 1em;
 }
 
-
 .table {
   width: 100%;
 }
@@ -144,21 +143,21 @@ h4 {
   h1 {
     width: 75%;
     top: 5px;
-    right: 0px;
+    right: 0;
     font-size: 2.5em;
   }
 
-    h2 {
-      font-size: 2em;
-    }
+  h2 {
+    font-size: 2em;
+  }
 
-    h3 {
-      font-size: 1.25em;
-    }
+  h3 {
+    font-size: 1.25em;
+  }
 
-    h4 {
-      font-size: 1em;
-    }
+  h4 {
+    font-size: 1em;
+  }
 
   .cupid {
     width: 25%;
@@ -259,7 +258,6 @@ h4 {
   }
 
 }
-
 
 @media only screen and (min-width: 52em) {
 
@@ -429,14 +427,12 @@ h4 {
   fill: #d42380;
 }
 
-
 @media only screen and (min-width: 74em) {
 
   .thirty {
     left: 450px;
   }
 }
-
 
 .st0 {
   fill: none;
@@ -489,7 +485,7 @@ h4 {
 
 .st6 {
   fill: none;
-  stroke:#bf9e2f;
+  stroke: #bf9e2f;
   stroke-width: 1.3825;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -498,16 +494,16 @@ h4 {
 
 .st7 {
   fill: none;
-  stroke:#bf9e2f;
+  stroke: #bf9e2f;
   stroke-width: 2.2121;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke-miterlimit :10;
+  stroke-miterlimit: 10;
 }
 
 .st8 {
   fill: none;
-  stroke:#bf9e2f;
+  stroke: #bf9e2f;
   stroke-width: 1.106;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -558,7 +554,7 @@ h4 {
 
 .st17 {
   fill: none;
-  stroke:#000;
+  stroke: #000;
   stroke-width: 1.1025;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -589,7 +585,7 @@ h4 {
 }
 
 .st23 {
-  fill: #8C8485;
+  fill: #8c8485;
 }
 
 .st24 {
@@ -604,7 +600,7 @@ h4 {
 }
 
 .st26 {
-  fill: #a7a9aC;
+  fill: #a7a9ac;
 }
 
 .st27 {
@@ -630,43 +626,42 @@ h4 {
   fill: #fbb040;
 }
 
-.st32{
-   fill: #f15a29;
+.st32 {
+  fill: #f15a29;
 }
 
 .uk-0 {
-  clip-path: url(#svgid__2_);
+  clip-path: url("#svgid__2_");
   fill: #213c75;
 }
 
 .uk-1 {
-  clip-path: url(#svgid__2_);
+  clip-path: url("#svgid__2_");
   fill: #fff;
 }
 
 .uk-2 {
-  clip-path: url(#svgid__2_);
+  clip-path: url("#svgid__2_");
   fill: #e03a3e;
 }
 
 .uk-3 {
-  clip-path: url(#svgid__2_);
+  clip-path: url("#svgid__2__");
   fill: #dd3e44;
 }
 
-
 .us-0 {
-  clip-path: url(#svgid__2_);
-  fill: #065bA6;
+  clip-path: url("#svgid__2_");
+  fill: #065ba6;
 }
 
 .us-1 {
-  clip-path: url(#svgid__2_);
+  clip-path: url("#svgid__2_");
   fill: #fff;
 }
 
 .us-2 {
-  clip-path: url(#svgid_2_);
+  clip-path: url("#svgid_2_");
   fill: #e12529;
 }
 
@@ -711,7 +706,7 @@ h4 {
 }
 
 .friends-5 {
-  fill: #911A1F;
+  fill: #911a1f;
 }
 
 .friends-6 {
