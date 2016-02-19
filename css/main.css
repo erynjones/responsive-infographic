@@ -186,8 +186,8 @@ h4 {
   }
 
   .beloved {
-    position: absolute;
-    bottom: -2320px;
+    position: relative;
+    bottom: -15px;
   }
 
   .pricing {
@@ -204,31 +204,9 @@ h4 {
 @media only screen and (min-width: 40em) {
 
   .beloved {
-    bottom: -2350px;
+    bottom: -20px;
     padding-left: 4em;
     padding-right: 4em;
-  }
-
-}
-
-@media only screen and (min-width: 40em) {
-
-  .beloved {
-    bottom: -2425px;
-    padding-left: 4em;
-    padding-right: 4em;
-  }
-
-}
-
-@media only screen and (min-width: 52em) {
-
-  h1 {
-    font-size: 3em;
-  }
-
-  .cupid {
-    width: 215px;
   }
 
   .uk {
@@ -248,8 +226,38 @@ h4 {
     right: 25px;
   }
 
+}
+
+
+@media only screen and (min-width: 52em) {
+
+  h1 {
+    font-size: 3em;
+  }
+
+  .cupid {
+    width: 215px;
+  }
+
+  .uk {
+    left: 108px;
+  }
+
+  .us {
+
+    right: 108px;
+  }
+
+  .uk-info {
+    left: 55px;
+  }
+
+  .us-info {
+    right: 55px;
+  }
+
   .beloved {
-    bottom: -2550px;
+    bottom: -30px;
   }
 }
 
@@ -260,17 +268,84 @@ h4 {
     right: 60px;
   }
 
+  h2 {
+    font-size: 2.75em;
+  }
+
+  h3 {
+    font-size: 2em;
+  }
+
+  h4 {
+    font-size: 1.75em;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+
   .cupid {
     left: 60px;
   }
 
   .table {
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 10em;
+    padding-right: 10em;
   }
 
   .beloved {
-    bottom: -2800px;
+    height: 1000px;
+  }
+
+  .sensitive {
+    position: absolute;
+    display: inline-block;
+    left: 15px;
+    width: 50%;
+  }
+
+  .appreciation {
+    position: absolute;
+    display: inline-block;
+    right: 15px;
+    width: 50%;
+  }
+
+  .lucky {
+    position: absolute;
+    display: inline-block;
+    top: 625px;
+    left: 15px;
+    width: 50%;
+  }
+
+  .reciprocity {
+    position: absolute;
+    display: inline-block;
+    right: 15px;
+    top: 625px;
+    width: 50%;
+  }
+
+  .uk {
+    left: 155px;
+  }
+
+  .us {
+
+    right: 155px;
+  }
+
+  .uk-info {
+    left: 105px;
+  }
+
+  .us-info {
+    right: 105px;
+  }
+
+  .all {
+    position: relative;
   }
 
 }
