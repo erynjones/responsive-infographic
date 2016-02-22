@@ -162,6 +162,16 @@ h4 {
   .cupid {
     width: 25%;
     top: 10px;
+    transform-origin: middle;
+    animation: spin 4s alternate infinite;
+}
+
+  @keyframes spin {
+
+    0% { transform: rotate(-15deg); }
+
+    100% { transform: rotate(15deg); }
+    }
   }
 
   .uk {
@@ -210,6 +220,11 @@ h4 {
     padding-right: 2em;
   }
 
+  .appreciation, .lucky, .sensitive, .reciprocity {
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+
 }
 
 @media only screen and (min-width: 40em) {
@@ -236,8 +251,6 @@ h4 {
 
   .beloved {
     bottom: -20px;
-    padding-left: 4em;
-    padding-right: 4em;
   }
 
   .uk {
@@ -255,6 +268,11 @@ h4 {
 
   .us-info {
     right: 25px;
+  }
+
+  .appreciation, .lucky, .sensitive, .reciprocity {
+    margin-right: 6em;
+    margin-left: 6em;
   }
 
 }
@@ -305,6 +323,11 @@ h4 {
   .beloved {
     bottom: -30px;
   }
+
+  .appreciation, .lucky, .sensitive, .reciprocity {
+    margin-right: 9em;
+    margin-left: 9em;
+  }
 }
 
 @media only screen and (min-width: 69em) {
@@ -349,6 +372,7 @@ h4 {
     display: inline-block;
     left: 15px;
     width: 50%;
+    margin: 0;
   }
 
   .appreciation {
@@ -356,6 +380,7 @@ h4 {
     display: inline-block;
     right: 15px;
     width: 50%;
+    margin: 0;
   }
 
   .lucky {
@@ -364,6 +389,7 @@ h4 {
     top: 625px;
     left: 15px;
     width: 50%;
+    margin: 0;
   }
 
   .reciprocity {
@@ -372,6 +398,7 @@ h4 {
     right: 15px;
     top: 625px;
     width: 50%;
+    margin: 0;
   }
 
   .all {
@@ -415,10 +442,6 @@ h4 {
 
   .us-info {
     right: 135px;
-  }
-
-  .all {
-    position: relative;
   }
 
 }
