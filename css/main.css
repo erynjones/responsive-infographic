@@ -32,14 +32,7 @@ p {
 header {
   background-color: #eda3c8;
   position: relative;
-  height: 200px;
-}
-
-.cupid {
-  position: absolute;
-  width: 200px;
-  top: 0;
-  left: 5px;
+  height: 180px;
 }
 
 h1 {
@@ -47,7 +40,7 @@ h1 {
   color: white;
   width: 75%;
   position: absolute;
-  top: 90px;
+  top: 65px;
   right: 0;
   z-index: 100;
   text-align: center;
@@ -119,7 +112,7 @@ h4 {
 }
 
 .uk-info, .us-info {
-  width: 150px;
+  width: 225px;
   margin-right: auto;
   margin-left: auto;
   display: block;
@@ -139,7 +132,9 @@ h4 {
 }
 
 .cupid {
-  width: 25%;
+  position: absolute;
+  width: 150px;
+  left: 5px;
   top: 10px;
   transform-origin: middle;
   animation: spin 4s alternate infinite;
@@ -152,7 +147,7 @@ h4 {
   100% { transform: rotate(15deg); }
 }
 
-@media only screen and (min-width: 31em)  {
+@media only screen and (min-width: 31em) {
 
   h1 {
     width: 75%;
