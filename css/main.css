@@ -138,7 +138,21 @@ h4 {
   width: 100%;
 }
 
-@media only screen and (min-width: 31em) {
+.cupid {
+  width: 25%;
+  top: 10px;
+  transform-origin: middle;
+  animation: spin 4s alternate infinite;
+}
+
+@keyframes spin {
+
+  0% { transform: rotate(-15deg); }
+
+  100% { transform: rotate(15deg); }
+}
+
+@media only screen and (min-width: 31em)  {
 
   h1 {
     width: 75%;
@@ -157,21 +171,6 @@ h4 {
 
   h4 {
     font-size: 1em;
-  }
-
-  .cupid {
-    width: 25%;
-    top: 10px;
-    transform-origin: middle;
-    animation: spin 4s alternate infinite;
-}
-
-  @keyframes spin {
-
-    0% { transform: rotate(-15deg); }
-
-    100% { transform: rotate(15deg); }
-    }
   }
 
   .uk {
@@ -224,7 +223,6 @@ h4 {
     margin-right: 1em;
     margin-left: 1em;
   }
-
 }
 
 @media only screen and (min-width: 40em) {
@@ -274,7 +272,6 @@ h4 {
     margin-right: 6em;
     margin-left: 6em;
   }
-
 }
 
 @media only screen and (min-width: 52em) {
@@ -432,7 +429,6 @@ h4 {
   }
 
   .us {
-
     right: 185px;
   }
 
@@ -443,18 +439,10 @@ h4 {
   .us-info {
     right: 135px;
   }
-
 }
 
 .cupid-fill {
   fill: #d42380;
-}
-
-@media only screen and (min-width: 74em) {
-
-  .thirty {
-    left: 450px;
-  }
 }
 
 .st0 {
@@ -654,37 +642,37 @@ h4 {
 }
 
 .uk-0 {
-  clip-path: url("#svgid__2_");
+  clip-path: url("#uk-heart-2");
   fill: #213c75;
 }
 
 .uk-1 {
-  clip-path: url("#svgid__2_");
+  clip-path: url("#uk-heart-2");
   fill: #fff;
 }
 
 .uk-2 {
-  clip-path: url("#svgid__2_");
+  clip-path: url("#uk-heart-2");
   fill: #e03a3e;
 }
 
 .uk-3 {
-  clip-path: url("#svgid__2__");
+  clip-path: url("#uk-heart-2");
   fill: #dd3e44;
 }
 
 .us-0 {
-  clip-path: url("#svgid__2_");
+  clip-path: url("#us-heart-2");
   fill: #065ba6;
 }
 
 .us-1 {
-  clip-path: url("#svgid__2_");
+  clip-path: url("#us-heart-2");
   fill: #fff;
 }
 
 .us-2 {
-  clip-path: url("#svgid_2_");
+  clip-path: url("#us-heart-2");
   fill: #e12529;
 }
 
