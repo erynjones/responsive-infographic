@@ -657,17 +657,17 @@ h4 {
 }
 
 .us-0 {
-  clip-path: url("#us-heart-2");
+  xclip-path: url("#us-heart-2");
   fill: #065ba6;
 }
 
 .us-1 {
-  clip-path: url("#us-heart-2");
+  xclip-path: url("#us-heart-2");
   fill: #fff;
 }
 
 .us-2 {
-  clip-path: url("#us-heart-2");
+  xclip-path: url("#us-heart-2");
   fill: #e12529;
 }
 
